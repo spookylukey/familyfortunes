@@ -1,0 +1,9 @@
+
+Keys:
+
+ n - next question
+ p - previous question
+ 1 - 5  - correct answer (acts as toggle)
+ Space - wrong answer, without losing a life
+ x - wrong answer
+ z - remove a wrong answer
