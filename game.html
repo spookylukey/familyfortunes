@@ -72,8 +72,8 @@ $(document).ready(function() {
     $('#id_prev').click(showPrevious);
     $('#id_next').click(showNext);
     $(document).bind('keypress', function(e) {
-        var n = e.keyCode - 48;
-        var k = String.fromCharCode(e.keyCode)
+        var n = e.charCode - 48;
+        var k = String.fromCharCode(e.charCode)
         if (n > 0 && n < 6) {
             showAnswer(n);
         }
