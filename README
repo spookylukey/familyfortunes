@@ -41,3 +41,20 @@ is obvious:
   ["Question 2", ...
   ]
  ]
+
+== Licence ===
+
+A number of files from differnt sources are bundled:
+
+data.json - includes questions scraped from free questions here:
+            http://www.pub-quiz.net/Family-Fortunes-quiz.htm
+
+jquery-1.6.js - MIT/GPL licence
+
+Sound effects - recorded from TV program, assumed "fair use".
+
+BPDots.otf - Font from http://www.backpacker.gr/
+             Creative Commons Licence
+
+The remaining file (game.html) is original, and free to use and modify
+under the MIT licence.
