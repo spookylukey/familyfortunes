@@ -71,8 +71,6 @@ $(document).ready(function() {
         wrongAnswers = Math.max(wrongAnswers - 1, 0);
     }
 
-    $('#id_prev').click(showPrevious);
-    $('#id_next').click(showNext);
     $(document).bind('keypress', function(e) {
         var cc = e.charCode === 0 || e.charCode === undefined ? e.keyCode : e.charCode;
         var n = cc - 48;
@@ -137,10 +135,6 @@ body {
 </style>
 
 <body>
-<div id='controls' style="text-align: right;">
-<a href="#" id="id_prev">Previous</a>
-<a href="#" id="id_next">Next</a>
-</div>
 <div id='main'>
 </div>
 <div id='wrong'>
