@@ -7,22 +7,28 @@ sound effects.  It needs a human to read questions and make judgements about
 whether an answer is right or not. A simple set of keyboard controls is used
 to control it.
 
+=== Requirements ===
+
 All that is needed is a modern web browser. Tested in:
 
  Firefox 4
  Chrome 10
  Opera 10
 
-Simply download all the files, and open up 'game.html' in the web browser.
+Assumes a screen size of about 1024 x 768 or bigger.
 
-Keys:
+=== Use ===
+
+Simply download all the files into a folder, and open up 'game.html' in the web
+browser. Put browser in full screen mode. Then use the following keys.
 
  n - next question
  p - previous question
- 1 - 5  - correct answer (acts as toggle)
+ 1 - 5  - correct answer (press again to remove toggle)
  x - wrong answer
  z - remove a wrong answer
  Space - wrong answer, without losing a life
+        (if there is a wrong answer in the first deciding phase)
 
 === Questions ===
 
