@@ -35,9 +35,9 @@ Assumes a screen size of about 1024 x 768 or bigger.
 
 === Questions ===
 
-Questions and answers are stored in the file data.json. (To avoid XHR
-restrictions on localhost, it is strictly javascript, not json). The format
-is obvious:
+If you want to add more questions/answers, they are stored in the file
+data.json.  (To avoid XHR restrictions on localhost, it is strictly
+javascript, not json).  The format is simple:
 
  [
   ["Question 1",
@@ -50,6 +50,9 @@ is obvious:
   ["Question 2", ...
   ]
  ]
+
+I used a program to generate this data from sources found online (link
+below).
 
 == Licence ===
 
