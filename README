@@ -1,9 +1,43 @@
+== Family Fortunes ==
+
+(a.k.a. Family Feud)
+
+A simple implementation of the LED score board for Family Fortunes, with
+sound effects.  It needs a human to read questions and make judgements about
+whether an answer is right or not. A simple set of keyboard controls is used
+to control it.
+
+All that is needed is a modern web browser. Tested in:
+
+ Firefox 4
+ Chrome 10
+ Opera 10
+
+Simply download all the files, and open up 'game.html' in the web browser.
 
 Keys:
 
  n - next question
  p - previous question
  1 - 5  - correct answer (acts as toggle)
- Space - wrong answer, without losing a life
  x - wrong answer
  z - remove a wrong answer
+ Space - wrong answer, without losing a life
+
+=== Questions ===
+
+Questions and answers are stored in the file data.json. (To avoid XHR
+restrictions on localhost, it is strictly javascript, not json). The format
+is obvious:
+
+ [
+  ["Question 1",
+   ["Answer 1",
+    "Answer 2",
+    "Answer 3",
+    "Answer 4",
+    "Answer 5"],
+  ],
+  ["Question 2", ...
+  ]
+ ]
