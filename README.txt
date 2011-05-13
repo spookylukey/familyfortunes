@@ -19,8 +19,11 @@ Assumes a screen size of about 1024 x 768 or bigger.
 
 === Use ===
 
-Simply download all the files into a folder, and open up 'index.html' in the web
-browser. Put browser in full screen mode. Then use the following keys.
+* Download files: https://bitbucket.org/spookylukey/familyfortunes/get/tip.zip
+* Extract the files into a folder somewhere
+* Open up 'index.html' in a web browser.
+* Put browser in full screen mode.
+* Then use the following keys:
 
  n - next question
  p - previous question
