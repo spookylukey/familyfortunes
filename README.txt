@@ -68,5 +68,5 @@ Sound effects - recorded from TV program, assumed "fair use".
 BPDots.otf - Font from http://www.backpacker.gr/
              Creative Commons Licence
 
-The remaining file (game.html) is original, and free to use and modify
+The remaining file (index.html) is original, and free to use and modify
 under the MIT licence.
