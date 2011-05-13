@@ -19,7 +19,7 @@ $(document).ready(function() {
         $.each(q[1], function(idx, val) {
 
             var s1 = $('<span class="answer" style="display: none;"></span>');
-            var s2 = $('<span class="dummy">_ _ _ _ _ _ _ _ _ _ _ _</span>');
+            var s2 = $('<span class="dummy">_ _ _ _ _ _ _ _ _ _</span>');
             s1.text(val);
             var d = $('<p id="id_ans_' + (idx + 1).toString() + '">' + (idx + 1).toString() + ' </p>');
             d.append(s2);
