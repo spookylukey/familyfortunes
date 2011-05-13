@@ -6,6 +6,10 @@
 
 $(document).ready(function() {
 
+    var wrongAudio = new Audio("wrong.wav");
+    var correctAudio = new Audio("correct.wav");
+    var topAudio = new Audio("top.wav");
+
     var currentQ = -1;
     var wrongAnswers = 0;
 
@@ -43,19 +47,17 @@ $(document).ready(function() {
         if ($('#id_ans_' + n.toString() + ' .dummy').is(':visible')) {
             var snd;
             if (n == 1) {
-                snd = new Audio("top.wav");
+                topAudio.play();
             } else {
-                snd = new Audio("correct.wav");
+                correctAudio.play()
             }
-            snd.play();
         }
         $('#id_ans_' + n.toString() + ' .dummy').toggle();
         $('#id_ans_' + n.toString() + ' .answer').toggle();
     }
 
     function uhoh() {
-        var snd = new Audio("wrong.wav");
-        snd.play();
+        wrongAudio.play();
     }
 
     function addWrongAnswer() {
