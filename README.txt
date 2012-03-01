@@ -33,6 +33,39 @@ Assumes a screen size of about 1024 x 768 or bigger.
  Space - wrong answer, without losing a life
         (if there is a wrong answer in the first deciding phase)
 
+
+=== Playing the game ===
+
+Based on extracts from Wikipedia about the original game show, with
+modifications.
+
+Each round begins with a member of each team (in rotation, meaning all players
+do this at least once) approaching the podium. As the question is read, the
+first of the two nominees to hit a buzzer (or put up their hand) gives an
+answer. If this is not the top answer, the other nominee is asked. The team with
+the higher answer then chooses whether to "play" the question, or "pass" control
+to the other team (in reality, teams rarely choose to pass).
+
+[The person controlling the computer presses 1 - 5 for a correct answer, space
+for a wrong answer]
+
+The host then passes down the line of the controlling team, asking for an answer
+from each. After each answer, the board reveals whether this answer featured. If
+not, a "life" is lost.
+
+[The person controlling the computer presses 1 - 5 for a correct answer, X for a
+ wrong answer]
+
+Every time someone gives an answer that is not on the board, the team lose a
+life, accompanied by a large "X" on the board with the infamous "uh-uhh"
+sound. If they lose all three lives, the other team is given the chance to
+"steal" by coming up with an answer that may be among the missing answers. If
+this answer was present, the other team win the round and was said to have
+"stolen" the points; if not, the team who had given the three incorrect answers
+win however much points their other answers had accumulated.
+
+The scores are 5 points for the top answer, down to 1 for the bottom answer.
+
 === Questions ===
 
 If you want to add more questions/answers, they are stored in the file
@@ -51,8 +84,7 @@ javascript, not json).  The format is simple:
   ]
  ]
 
-I used a program to generate this data from sources found online (link
-below).
+I used a program to generate this data from sources found online (link below).
 
 == Licence ===
 
