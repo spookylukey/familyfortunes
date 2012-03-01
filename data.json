@@ -1,2 +1,203 @@
-
-questions = [["Name the best way of showing someone you love them", ["By kissing them", "By Hugging them", "Flowers", "Tell them", "Gifts/Presents"]], ["Name a method of self defence, be specific, if it's a martial art name it", ["Karate", "Kung Fu", "Tai Kwon Do", "Judo", "Run"]], ["Apart from clothes, name something you put on your body", ["Deodorant", "Perfume", "Cream/Lotion", "Make Up", "Powder"]], ["Name a male relative", ["Uncle", "Father", "Brother", "Grandfather", "Brother/Father in law"]], ["Name someone who wears headphones", ["DJ", "Pilot", "Singer", "Telephonist", "Commentator"]], ["Name a type of alarm", ["Fire", "Car", "Burglar", "Clock", "Personal"]], ["Name something you might wave at a football match", ["Flag", "Scarf", "Hand", "Hat", "Banner"]], ["Name something you wear that's made of metal", ["Ring", "Watch", "chain", "Bracelet", "Braces"]], ["Name something you might find on your doorstep", ["Mat", "Milk", "Newspaper", "Parcel", "Shoes"]], ["Name something you associate with aliens", ["Spaceship/UFO", "Outer Space", "Mars/Martian", "ET", "Green"]], ["Name something you might buy a box of when shopping", ["Chocolates", "Matches", "Cereal", "Tissues", "Biscuits"]], ["Name something you should take with you on a bicycle tour", ["Water/Drink", "Helmet", "Pump", "Map", "Backpack"]], ["Name something both men and women share in the bathroom", ["Soap", "Toothpaste", "Towels", "Shampoo", "Razor"]], ["Name something that is hard to keep clean", ["Car", "Shoes", "Bath/Shower", "Floor", "Teeth"]], ["Name something you might catch in a net", ["Fish", "Butterfly", "Crab", "Tennis Ball/Ball", "Shuttlecock"]], ["Name an authority figure", ["Police", "Boss/Manager", "Parent", "King or Queen", "Lawyer/judge"]], ["Name something you spread on toast", ["Butter", "Jam/Marmalade", "Honey", "Margarine", "Cheese"]], ["Name a seafood delicacy", ["Oyster", "Crab", "Lobster", "Caviar", "Prawns"]], ["Name a building you might see in a wild west town", ["Saloon/Hotel", "Bank", "Barber", "Sheriff's", "Blacksmiths"]], ["Name something you do to your finger nails", ["Bite/Chew them", "Cut them", "File them", "Paint them", "Wash/Clean them"]]];
+questions =
+[
+    [
+        "Name the best way of showing someone you love them", 
+        [
+            "By kissing them", 
+            "By Hugging them", 
+            "Flowers", 
+            "Tell them", 
+            "Gifts/Presents"
+        ]
+    ], 
+    [
+        "Name a method of self defence, be specific, if it's a martial art name it", 
+        [
+            "Karate", 
+            "Kung Fu", 
+            "Tai Kwon Do", 
+            "Judo", 
+            "Run"
+        ]
+    ], 
+    [
+        "Apart from clothes, name something you put on your body", 
+        [
+            "Deodorant", 
+            "Perfume", 
+            "Cream/Lotion", 
+            "Make Up", 
+            "Powder"
+        ]
+    ], 
+    [
+        "Name a male relative", 
+        [
+            "Uncle", 
+            "Father", 
+            "Brother", 
+            "Grandfather", 
+            "Brother/Father in law"
+        ]
+    ], 
+    [
+        "Name someone who wears headphones", 
+        [
+            "DJ", 
+            "Pilot", 
+            "Singer", 
+            "Telephonist", 
+            "Commentator"
+        ]
+    ], 
+    [
+        "Name a type of alarm", 
+        [
+            "Fire", 
+            "Car", 
+            "Burglar", 
+            "Clock", 
+            "Personal"
+        ]
+    ], 
+    [
+        "Name something you might wave at a football match", 
+        [
+            "Flag", 
+            "Scarf", 
+            "Hand", 
+            "Hat", 
+            "Banner"
+        ]
+    ], 
+    [
+        "Name something you wear that's made of metal", 
+        [
+            "Ring", 
+            "Watch", 
+            "chain", 
+            "Bracelet", 
+            "Braces"
+        ]
+    ], 
+    [
+        "Name something you might find on your doorstep", 
+        [
+            "Mat", 
+            "Milk", 
+            "Newspaper", 
+            "Parcel", 
+            "Shoes"
+        ]
+    ], 
+    [
+        "Name something you associate with aliens", 
+        [
+            "Spaceship/UFO", 
+            "Outer Space", 
+            "Mars/Martian", 
+            "ET", 
+            "Green"
+        ]
+    ], 
+    [
+        "Name something you might buy a box of when shopping", 
+        [
+            "Chocolates", 
+            "Matches", 
+            "Cereal", 
+            "Tissues", 
+            "Biscuits"
+        ]
+    ], 
+    [
+        "Name something you should take with you on a bicycle tour", 
+        [
+            "Water/Drink", 
+            "Helmet", 
+            "Pump", 
+            "Map", 
+            "Backpack"
+        ]
+    ], 
+    [
+        "Name something both men and women share in the bathroom", 
+        [
+            "Soap", 
+            "Toothpaste", 
+            "Towels", 
+            "Shampoo", 
+            "Razor"
+        ]
+    ], 
+    [
+        "Name something that is hard to keep clean", 
+        [
+            "Car", 
+            "Shoes", 
+            "Bath/Shower", 
+            "Floor", 
+            "Teeth"
+        ]
+    ], 
+    [
+        "Name something you might catch in a net", 
+        [
+            "Fish", 
+            "Butterfly", 
+            "Crab", 
+            "Tennis Ball/Ball", 
+            "Shuttlecock"
+        ]
+    ], 
+    [
+        "Name an authority figure", 
+        [
+            "Police", 
+            "Boss/Manager", 
+            "Parent", 
+            "King or Queen", 
+            "Lawyer/judge"
+        ]
+    ], 
+    [
+        "Name something you spread on toast", 
+        [
+            "Butter", 
+            "Jam/Marmalade", 
+            "Honey", 
+            "Margarine", 
+            "Cheese"
+        ]
+    ], 
+    [
+        "Name a seafood delicacy", 
+        [
+            "Oyster", 
+            "Crab", 
+            "Lobster", 
+            "Caviar", 
+            "Prawns"
+        ]
+    ], 
+    [
+        "Name a building you might see in a wild west town", 
+        [
+            "Saloon/Hotel", 
+            "Bank", 
+            "Barber", 
+            "Sheriff's", 
+            "Blacksmiths"
+        ]
+    ], 
+    [
+        "Name something you do to your finger nails", 
+        [
+            "Bite/Chew them", 
+            "Cut them", 
+            "File them", 
+            "Paint them", 
+            "Wash/Clean them"
+        ]
+    ]
+];
