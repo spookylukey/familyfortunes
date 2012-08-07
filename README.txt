@@ -102,3 +102,26 @@ BPDots.otf - Font from http://www.backpacker.gr/
 
 The remaining file (index.html) is original, and free to use and modify
 under the MIT licence.
+
+
+== Simplified instructions for person controlling computer ==
+
+For initial face-to-face between two contestants:
+
+- press 1 to 5 for a correct answer
+
+- press SPACE for an incorrect answer
+
+Once the question goes to the team, they now have 3 lives
+
+- press 1 to 5 for a correct answer
+
+- press X for an incorrect answer (makes an X appear on the screen)
+
+
+If X is pressed accidentally, press Z to cancel it
+If a number is pressed accidentally, press the number again to cancel
+
+To move to the next round, press P
+To go back, press N
+
