@@ -15,13 +15,14 @@ $(document).ready(function() {
 
     function showQuestion() {
         var q = questions[currentQ];
-        $('#main').empty().append("<h1>" + (currentQ + 1).toString() + ". " + q[0] + "</h1>");
-        $.each(q[1], function(idx, val) {
-
+        var title = q[0];
+        var answers = q[1];
+        $('#main').empty().append($("<h1></h1>").text((currentQ + 1).toString() + ". " + title));
+        $.each(answers, function(idx, answer) {
             var s1 = $('<span class="answer" style="display: none;"></span>');
             var s2 = $('<span class="dummy">_ _ _ _ _ _ _ _ _ _</span>');
-            s1.text(val);
-            var d = $('<p id="id_ans_' + (idx + 1).toString() + '">' + (idx + 1).toString() + ' </p>');
+            s1.text(answer);
+            var d = $('<p id="id_ans_' + (idx + 1).toString() + '"></p>').text((idx + 1).toString() + " ");
             d.append(s2);
             d.append(s1);
             $('#main').append(d);
