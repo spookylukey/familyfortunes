@@ -1,3 +1,26 @@
+Family Fortunes
+
+For initial face-to-face between two contestants:
+
+- press 1 to 5 for a correct answer
+
+- press SPACE for an incorrect answer
+
+Once the question goes to the team, they now have 3 lives
+
+- press 1 to 5 for a correct answer
+
+- press X for an incorrect answer (makes an X appear on the screen)
+
+If a number is pressed accidentally, press the number again to cancel.
+If X is pressed accidentally, press Z to cancel it.
+
+To move to the next round, press N.
+To go back, press P.
+
+
+Questions
+
 1.      Name the best way of showing someone you love them
    1. By kissing them
    2. By Hugging them
