@@ -119,9 +119,9 @@ Once the question goes to the team, they now have 3 lives
 - press X for an incorrect answer (makes an X appear on the screen)
 
 
-If X is pressed accidentally, press Z to cancel it
-If a number is pressed accidentally, press the number again to cancel
+If a number is pressed accidentally, press the number again to cancel.
+If X is pressed accidentally, press Z to cancel it.
 
-To move to the next round, press P
-To go back, press N
+To move to the next round, press N.
+To go back, press P.
 
