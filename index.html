@@ -21,7 +21,7 @@ $(document).ready(function() {
         $.each(answers, function(idx, answer) {
             $('#main').append(
               $('<p id="id_ans_' + (idx + 1).toString() + '"></p>').text((idx + 1).toString() + " ")
-              .append($('<span class="dummy">_ _ _ _ _ _ _ _ _ _</span>'))
+              .append($('<span class="placeholder">_ _ _ _ _ _ _ _ _ _</span>'))
               .append($('<span class="answer" style="display: none;"></span>').text(answer))
             );
         });
@@ -43,7 +43,7 @@ $(document).ready(function() {
     }
 
     function showAnswer(n) {
-        if ($('#id_ans_' + n.toString() + ' .dummy').is(':visible')) {
+        if ($('#id_ans_' + n.toString() + ' .placeholder').is(':visible')) {
             var snd;
             if (n == 1) {
                 topAudio.play();
@@ -51,7 +51,7 @@ $(document).ready(function() {
                 correctAudio.play()
             }
         }
-        $('#id_ans_' + n.toString() + ' .dummy').toggle();
+        $('#id_ans_' + n.toString() + ' .placeholder').toggle();
         $('#id_ans_' + n.toString() + ' .answer').toggle();
     }
 
