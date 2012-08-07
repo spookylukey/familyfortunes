@@ -19,13 +19,11 @@ $(document).ready(function() {
         var answers = q[1];
         $('#main').empty().append($("<h1></h1>").text((currentQ + 1).toString() + ". " + title));
         $.each(answers, function(idx, answer) {
-            var s1 = $('<span class="answer" style="display: none;"></span>');
-            var s2 = $('<span class="dummy">_ _ _ _ _ _ _ _ _ _</span>');
-            s1.text(answer);
-            var d = $('<p id="id_ans_' + (idx + 1).toString() + '"></p>').text((idx + 1).toString() + " ");
-            d.append(s2);
-            d.append(s1);
-            $('#main').append(d);
+            $('#main').append(
+              $('<p id="id_ans_' + (idx + 1).toString() + '"></p>').text((idx + 1).toString() + " ")
+              .append($('<span class="dummy">_ _ _ _ _ _ _ _ _ _</span>'))
+              .append($('<span class="answer" style="display: none;"></span>').text(answer))
+            );
         });
         $('#wrong div').hide();
         wrongAnswers = 0;
